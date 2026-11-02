@@ -1,5 +1,6 @@
 const githubFeedList = document.querySelector("#github-feed-list");
 const githubFeedStatus = document.querySelector("#github-feed-status");
+const githubCommitTotal = document.querySelector("#github-commit-total");
 const aiFeedList = document.querySelector("#ai-feed-list");
 const aiFeedStatus = document.querySelector("#ai-feed-status");
 const githubFeedNote = document.querySelector("#github-feed-note");
@@ -9,9 +10,6 @@ const aiActivityButton = aiActivity.querySelector(".hamburger-label");
 const frenchDate = new Intl.DateTimeFormat("fr-FR", {
   dateStyle: "medium",
 });
-const GITHUB_EVENTS_URL = "https://api.github.com/users/Ga3TH/events/public";
-const EVENTS_PER_PAGE = 100;
-const MAX_EVENT_PAGES = 3;
 const ACTIVITY_WINDOW_DAYS = 14;
 
 function formatDate(value) {
@@ -32,125 +30,115 @@ function createLink(url, text) {
   return link;
 }
 
-function renderGitHubActivity(events, limited) {
-  const cutoff = Date.now() - ACTIVITY_WINDOW_DAYS * 24 * 60 * 60 * 1000;
-  const projects = new Map();
-  let totalPushes = 0;
-
-  for (const event of events) {
-    if (event?.type !== "PushEvent" || typeof event.repo?.name !== "string") {
-      continue;
-    }
-
-    const timestamp = Date.parse(event.created_at);
-    if (!Number.isFinite(timestamp) || timestamp < cutoff) {
-      continue;
-    }
-
-    totalPushes += 1;
-    const project = projects.get(event.repo.name) ?? {
-      name: event.repo.name,
-      pushes: 0,
-      latestPush: timestamp,
-      latestCommit: event.payload?.head,
-    };
-    project.pushes += 1;
-    if (timestamp > project.latestPush) {
-      project.latestPush = timestamp;
-      project.latestCommit = event.payload?.head;
-    }
-    projects.set(event.repo.name, project);
+function renderGitHubActivity(data) {
+  if (
+    !data
+    || !Array.isArray(data.projects)
+    || !Number.isInteger(data.total_commits)
+    || data.total_commits < 0
+    || data.window_days !== ACTIVITY_WINDOW_DAYS
+    || typeof data.limited !== "boolean"
+  ) {
+    throw new Error("Le résumé d’activité GitHub a un format invalide");
   }
 
-  const rankedProjects = [...projects.values()]
+  const rankedProjects = data.projects
+    .filter((project) =>
+      typeof project?.name === "string"
+      && typeof project?.url === "string"
+      && Number.isInteger(project.commits)
+      && project.commits > 0)
     .sort((first, second) =>
-      second.pushes - first.pushes
-      || second.latestPush - first.latestPush
+      second.commits - first.commits
+      || Date.parse(second.latest_commit_at) - Date.parse(first.latest_commit_at)
       || first.name.localeCompare(second.name))
     .slice(0, 3);
   const fragment = document.createDocumentFragment();
-  for (const project of rankedProjects) {
+  const highestCount = rankedProjects[0]?.commits ?? 1;
+
+  rankedProjects.forEach((project, index) => {
     const item = document.createElement("li");
-    item.className = "feed-item";
-    item.append(createLink(`https://github.com/${project.name}`, project.name));
+    item.className = "github-project";
 
-    const meta = document.createElement("div");
-    meta.className = "feed-meta";
-    const projectPushes = document.createElement("span");
-    projectPushes.textContent = `${project.pushes} ${project.pushes > 1 ? "pushs" : "push"}`;
-    meta.append(projectPushes);
+    const heading = document.createElement("div");
+    heading.className = "github-project-heading";
+    const rank = document.createElement("span");
+    rank.className = "github-project-rank";
+    rank.textContent = String(index + 1).padStart(2, "0");
+    heading.append(rank);
+    heading.append(createLink(project.url, project.name));
 
-    const date = formatDate(project.latestPush);
-    if (date) {
-      const dateLabel = document.createElement("span");
-      dateLabel.textContent = `Dernier : ${date}`;
-      meta.append(dateLabel);
+    const count = document.createElement("strong");
+    count.className = "github-project-count";
+    count.textContent = `${project.commits} ${project.commits === 1 ? "commit" : "commits"}`;
+    heading.append(count);
+    item.append(heading);
+
+    if (typeof project.description === "string" && project.description) {
+      const description = document.createElement("p");
+      description.className = "github-project-description";
+      description.textContent = project.description;
+      item.append(description);
     }
-    item.append(meta);
 
-    if (typeof project.latestCommit === "string" && project.latestCommit.length > 0) {
-      const message = document.createElement("p");
-      message.className = "feed-message";
-      const commitUrl = `https://github.com/${project.name}/commit/${encodeURIComponent(project.latestCommit)}`;
-      message.append(createLink(commitUrl, `Dernier commit · ${project.latestCommit.slice(0, 7)}`));
-      item.append(message);
+    const progress = document.createElement("span");
+    progress.className = "github-project-progress";
+    progress.setAttribute("aria-hidden", "true");
+    const progressFill = document.createElement("span");
+    progressFill.style.width = `${Math.max(8, Math.round(project.commits / highestCount * 100))}%`;
+    progress.append(progressFill);
+    item.append(progress);
+
+    const latestCommitTimestamp = Date.parse(project.latest_commit_at);
+    if (Number.isFinite(latestCommitTimestamp)) {
+      const latestCommit = document.createElement("div");
+      latestCommit.className = "github-project-latest";
+      latestCommit.textContent = `Dernier commit · ${formatDate(latestCommitTimestamp)}`;
+      item.append(latestCommit);
     }
+
+    if (typeof project.latest_commit_url === "string" && project.latest_commit_url) {
+      item.append(createLink(project.latest_commit_url, "Voir le dernier commit ↗"));
+    }
+
     fragment.append(item);
+  });
+
+  if (rankedProjects.length === 0) {
+    const emptyState = document.createElement("li");
+    emptyState.className = "github-empty";
+    emptyState.textContent = "Aucun dépôt public actif sur cette période.";
+    fragment.append(emptyState);
   }
 
   githubFeedList.replaceChildren(fragment);
-  githubFeedStatus.textContent = totalPushes === 0
-    ? "Aucun push récent sur les 14 derniers jours"
-    : `${totalPushes} push${totalPushes > 1 ? "s" : ""} récent${totalPushes > 1 ? "s" : ""} sur les 14 derniers jours`;
-  githubFeedNote.textContent = limited
-    ? "Dépôts publics uniquement. La limite de 300 événements GitHub est atteinte : le total peut être incomplet."
-    : "Dépôts publics uniquement · GitHub conserve environ 90 jours d’activité.";
+  githubCommitTotal.textContent = String(data.total_commits);
+  githubFeedStatus.textContent = data.total_commits === 0
+    ? `commits sur les ${ACTIVITY_WINDOW_DAYS} derniers jours`
+    : `${data.total_commits === 1 ? "commit" : "commits"} sur les ${ACTIVITY_WINDOW_DAYS} derniers jours`;
+  githubFeedNote.textContent = data.limited
+    ? "Comptage incomplet : la limite de pagination GitHub a été atteinte."
+    : "Dépôts publics · commits de Ga3TH sur la branche principale, pas le nombre exact de pushs.";
 }
 
 async function loadGitHubFeed() {
   try {
-    const cutoff = Date.now() - ACTIVITY_WINDOW_DAYS * 24 * 60 * 60 * 1000;
-    const events = [];
-    let limited = false;
-
-    for (let page = 1; page <= MAX_EVENT_PAGES; page += 1) {
-      const url = new URL(GITHUB_EVENTS_URL);
-      url.searchParams.set("per_page", String(EVENTS_PER_PAGE));
-      url.searchParams.set("page", String(page));
-
-      const response = await fetch(url, {
-        headers: { Accept: "application/vnd.github+json" },
-      });
-      if (!response.ok) {
-        throw new Error(`GitHub a répondu avec le statut ${response.status}`);
-      }
-
-      const pageEvents = await response.json();
-      if (!Array.isArray(pageEvents)) {
-        throw new Error("La réponse de GitHub n’est pas une liste d’événements");
-      }
-      if (pageEvents.length === 0) {
-        break;
-      }
-
-      events.push(...pageEvents);
-      const oldestTimestamp = Date.parse(pageEvents.at(-1)?.created_at);
-      if (!Number.isFinite(oldestTimestamp) || oldestTimestamp < cutoff) {
-        break;
-      }
-      if (pageEvents.length < EVENTS_PER_PAGE) {
-        break;
-      }
-      if (page === MAX_EVENT_PAGES) {
-        limited = true;
-      }
+    const response = await fetch("github-activity.json", { cache: "no-cache" });
+    if (response.status === 404) {
+      githubCommitTotal.textContent = "—";
+      githubFeedStatus.textContent = "Résumé GitHub en cours de génération.";
+      githubFeedNote.textContent = "GitHub Actions prépare le premier relevé. Réessaie dans quelques minutes.";
+      return;
     }
-
-    renderGitHubActivity(events, limited);
+    if (!response.ok) {
+      throw new Error(`Le résumé GitHub a répondu avec le statut ${response.status}`);
+    }
+    renderGitHubActivity(await response.json());
   } catch (error) {
     console.error("Impossible de charger l’activité GitHub.", error);
-    githubFeedStatus.textContent = "Activité indisponible pour le moment. Consulte mon profil GitHub.";
-    githubFeedNote.textContent = "Vérifie ta connexion, puis réessaie plus tard.";
+    githubCommitTotal.textContent = "—";
+    githubFeedStatus.textContent = "Activité GitHub indisponible pour le moment.";
+    githubFeedNote.textContent = "Le résumé des dépôts n’a pas pu être chargé. Réessaie plus tard.";
   }
 }
 
