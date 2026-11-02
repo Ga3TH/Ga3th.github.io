@@ -12,6 +12,21 @@
 </head>
 <body>
   <div class="page-layout">
+    <aside class="veille veille-github" aria-labelledby="github-feed-title">
+      <header class="veille-entete">
+        <div>
+          <p class="sur-titre">ACTIVITÉ GITHUB</p>
+          <h2 id="github-feed-title">Projets les plus actifs</h2>
+        </div>
+        <span class="veille-indicateur" aria-hidden="true"></span>
+      </header>
+      <p class="veille-description">Pushs publics sur les 14 derniers jours, regroupés par dépôt.</p>
+      <p class="feed-status" id="github-feed-status" aria-live="polite">Calcul des pushs récents…</p>
+      <ol class="feed-list" id="github-feed-list"></ol>
+      <p class="feed-note" id="github-feed-note">Chargement de l’activité GitHub…</p>
+      <a class="veille-lien" href="https://github.com/Ga3TH?tab=repositories" target="_blank" rel="noopener noreferrer">Voir tous mes dépôts <span aria-hidden="true">↗</span></a>
+    </aside>
+
     <main class="cv">
     <header class="entete">
       <div class="identite">
@@ -24,26 +39,26 @@
       </div>
       <div class="entete-actions">
         <div class="disponibilite">● Stage recherché<br><strong>Janvier – février</strong></div>
-        <details class="github-activity">
-          <summary class="hamburger-label" aria-label="Afficher les pushs GitHub">
+        <details class="ai-activity">
+          <summary class="hamburger-label" aria-label="Ouvrir la veille sur l’intelligence artificielle" aria-controls="ai-feed-panel" aria-expanded="false">
             <span class="hamburger-icon" aria-hidden="true">
               <span class="line1"></span>
               <span class="line2"></span>
               <span class="line3"></span>
             </span>
           </summary>
-          <section class="github-popover" aria-labelledby="github-feed-title">
+          <section class="ai-popover" id="ai-feed-panel" aria-labelledby="ai-feed-title">
             <header class="veille-entete">
               <div>
-                <p class="sur-titre">ACTIVITÉ PUBLIQUE</p>
-                <h2 id="github-feed-title">Mes projets récents</h2>
+                <p class="sur-titre">VEILLE TECHNOLOGIQUE</p>
+                <h2 id="ai-feed-title">L’IA en mouvement</h2>
               </div>
-              <span class="veille-indicateur" aria-hidden="true"></span>
+              <span class="veille-indicateur ia" aria-hidden="true"></span>
             </header>
-            <p class="feed-status" id="github-feed-status" aria-live="polite">Chargement des pushs GitHub…</p>
-            <ol class="feed-list" id="github-feed-list"></ol>
-            <p class="feed-note" id="github-feed-note">Pushs sur les dépôts publics uniquement.</p>
-            <a class="veille-lien" href="https://github.com/Ga3TH?tab=repositories" target="_blank" rel="noopener noreferrer">Voir tous mes dépôts <span aria-hidden="true">↗</span></a>
+            <p class="veille-description">Actualités et recherche en intelligence artificielle.</p>
+            <p class="feed-status" id="ai-feed-status" aria-live="polite">Chargement de la veille IA…</p>
+            <ol class="feed-list" id="ai-feed-list"></ol>
+            <a class="veille-lien" href="https://export.arxiv.org/rss/cs.AI" target="_blank" rel="noopener noreferrer">Explorer les flux de recherche <span aria-hidden="true">↗</span></a>
           </section>
         </details>
       </div>
@@ -125,19 +140,6 @@
     <footer><span>Gaéthan Prual</span><span>Portfolio · GitHub : Ga3TH</span></footer>
     </main>
 
-    <aside class="veille veille-ia" aria-labelledby="ai-feed-title">
-      <header class="veille-entete">
-        <div>
-          <p class="sur-titre">VEILLE TECHNOLOGIQUE</p>
-          <h2 id="ai-feed-title">L’IA en mouvement</h2>
-        </div>
-        <span class="veille-indicateur ia" aria-hidden="true"></span>
-      </header>
-      <p class="veille-description">Actualités et recherche en intelligence artificielle.</p>
-      <p class="feed-status" id="ai-feed-status" aria-live="polite">Chargement de la veille IA…</p>
-      <ol class="feed-list" id="ai-feed-list"></ol>
-      <a class="veille-lien" href="https://export.arxiv.org/rss/cs.AI" target="_blank" rel="noopener noreferrer">Explorer les flux de recherche <span aria-hidden="true">↗</span></a>
-    </aside>
   </div>
   <script src="portfolio-feeds.js" defer></script>
 </body>

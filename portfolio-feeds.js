@@ -3,6 +3,8 @@ const githubFeedStatus = document.querySelector("#github-feed-status");
 const aiFeedList = document.querySelector("#ai-feed-list");
 const aiFeedStatus = document.querySelector("#ai-feed-status");
 const githubFeedNote = document.querySelector("#github-feed-note");
+const aiActivity = document.querySelector(".ai-activity");
+const aiActivityButton = aiActivity.querySelector(".hamburger-label");
 
 const frenchDate = new Intl.DateTimeFormat("fr-FR", {
   dateStyle: "medium",
@@ -97,10 +99,12 @@ function renderGitHubActivity(events, limited) {
   }
 
   githubFeedList.replaceChildren(fragment);
-  githubFeedStatus.textContent = `${totalPushes} push${totalPushes > 1 ? "s" : ""} récent${totalPushes > 1 ? "s" : ""} sur les 14 derniers jours`;
+  githubFeedStatus.textContent = totalPushes === 0
+    ? "Aucun push récent sur les 14 derniers jours"
+    : `${totalPushes} push${totalPushes > 1 ? "s" : ""} récent${totalPushes > 1 ? "s" : ""} sur les 14 derniers jours`;
   githubFeedNote.textContent = limited
-    ? "Limite des 300 événements publics atteinte : le total des 14 derniers jours peut être incomplet."
-    : "Dépôts publics uniquement. GitHub conserve environ 90 jours d’activité.";
+    ? "Dépôts publics uniquement. La limite de 300 événements GitHub est atteinte : le total peut être incomplet."
+    : "Dépôts publics uniquement · GitHub conserve environ 90 jours d’activité.";
 }
 
 async function loadGitHubFeed() {
@@ -197,6 +201,17 @@ async function loadAiFeed() {
     aiFeedStatus.textContent = "Veille indisponible pour le moment. Réessaie plus tard.";
   }
 }
+
+aiActivity.addEventListener("toggle", () => {
+  aiActivityButton.setAttribute("aria-expanded", String(aiActivity.open));
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && aiActivity.open) {
+    aiActivity.open = false;
+    aiActivityButton.focus();
+  }
+});
 
 loadGitHubFeed();
 loadAiFeed();
