@@ -11,7 +11,22 @@
   <link rel="stylesheet" href="cv-gaethan-prual.css">
 </head>
 <body>
-  <main class="cv">
+  <div class="page-layout">
+    <aside class="veille veille-github" aria-labelledby="github-feed-title">
+      <header class="veille-entete">
+        <div>
+          <p class="sur-titre">ACTIVITÉ PUBLIQUE</p>
+          <h2 id="github-feed-title">Mes derniers pushs</h2>
+        </div>
+        <span class="veille-indicateur" aria-hidden="true"></span>
+      </header>
+      <p class="veille-description">Les dernières mises à jour de mes dépôts GitHub publics.</p>
+      <p class="feed-status" id="github-feed-status" aria-live="polite">Chargement de l’activité GitHub…</p>
+      <ol class="feed-list" id="github-feed-list"></ol>
+      <a class="veille-lien" href="https://github.com/Ga3TH?tab=repositories" target="_blank" rel="noopener noreferrer">Voir tous mes dépôts <span aria-hidden="true">↗</span></a>
+    </aside>
+
+    <main class="cv">
     <header class="entete">
       <div class="identite">
         <div class="logo" aria-hidden="true">GP</div>
@@ -94,6 +109,22 @@
       </aside>
     </div>
     <footer><span>Gaéthan Prual</span><span>Portfolio · GitHub : Ga3TH</span></footer>
-  </main>
+    </main>
+
+    <aside class="veille veille-ia" aria-labelledby="ai-feed-title">
+      <header class="veille-entete">
+        <div>
+          <p class="sur-titre">VEILLE TECHNOLOGIQUE</p>
+          <h2 id="ai-feed-title">L’IA en mouvement</h2>
+        </div>
+        <span class="veille-indicateur ia" aria-hidden="true"></span>
+      </header>
+      <p class="veille-description">Actualités et recherche en intelligence artificielle.</p>
+      <p class="feed-status" id="ai-feed-status" aria-live="polite">Chargement de la veille IA…</p>
+      <ol class="feed-list" id="ai-feed-list"></ol>
+      <a class="veille-lien" href="https://export.arxiv.org/rss/cs.AI" target="_blank" rel="noopener noreferrer">Explorer les flux de recherche <span aria-hidden="true">↗</span></a>
+    </aside>
+  </div>
+  <script src="portfolio-feeds.js" defer></script>
 </body>
 </html>
