@@ -1,0 +1,25 @@
+{
+  "window_days": 14,
+  "total_commits": 10,
+  "limited": false,
+  "projects": [
+    {
+      "name": "Ga3TH/Ga3th.github.io",
+      "url": "https://github.com/Ga3TH/Ga3th.github.io",
+      "description": "",
+      "commits": 8,
+      "latest_commit_at": "2026-11-02T18:08:57Z",
+      "latest_commit_url": "https://github.com/Ga3TH/Ga3th.github.io/commit/a89d340f8885e0f0772efec1734d29f55f9fadca",
+      "limited": false
+    },
+    {
+      "name": "Ga3TH/projet-finder",
+      "url": "https://github.com/Ga3TH/projet-finder",
+      "description": "",
+      "commits": 2,
+      "latest_commit_at": "2026-11-02T11:11:05Z",
+      "latest_commit_url": "https://github.com/Ga3TH/projet-finder/commit/d5a0b6694a8b64489e853cadca251776dec46080",
+      "limited": false
+    }
+  ]
+}
