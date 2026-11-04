@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-03T14:16:01.955174+00:00",
+  "updated_at": "2026-11-04T14:34:03.105309+00:00",
   "items": [
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Alignment Faking Depends on the Value, Not Just the Model",
+      "url": "https://arxiv.org/abs/2611.03650",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
+      "url": "https://arxiv.org/abs/2611.03651",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+      "url": "https://arxiv.org/abs/2611.03662",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+      "url": "https://arxiv.org/abs/2611.03684",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
+      "url": "https://arxiv.org/abs/2611.03685",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "url": "https://arxiv.org/abs/2611.03698",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
+      "url": "https://arxiv.org/abs/2611.03713",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch",
+      "url": "https://arxiv.org/abs/2611.03721",
+      "published_at": "2026-11-04T05:00:00+00:00"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "published_at": "2026-11-03T17:01:49+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "published_at": "2026-11-03T12:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "published_at": "2026-11-03T08:00:00+00:00"
+    },
     {
       "source": "OpenAI",
       "title": "Heimstaden is changing residential real estate management with AI",
@@ -8,52 +74,10 @@
       "published_at": "2026-11-03T08:00:00+00:00"
     },
     {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
-      "url": "https://arxiv.org/abs/2611.00159",
-      "published_at": "2026-11-03T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
-      "url": "https://arxiv.org/abs/2611.00165",
-      "published_at": "2026-11-03T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
-      "url": "https://arxiv.org/abs/2611.00166",
-      "published_at": "2026-11-03T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "PatchScout: Thematic Web Data Collection via Information Foraging",
-      "url": "https://arxiv.org/abs/2611.00169",
-      "published_at": "2026-11-03T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
-      "url": "https://arxiv.org/abs/2611.00171",
-      "published_at": "2026-11-03T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
-      "url": "https://arxiv.org/abs/2611.00177",
-      "published_at": "2026-11-03T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Neurons Are All You Need",
-      "url": "https://arxiv.org/abs/2611.00186",
-      "published_at": "2026-11-03T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions",
-      "url": "https://arxiv.org/abs/2611.00191",
-      "published_at": "2026-11-03T05:00:00+00:00"
+      "source": "OpenAI",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "published_at": "2026-11-03T00:00:00+00:00"
     },
     {
       "source": "OpenAI",
@@ -78,24 +102,6 @@
       "title": "Introducing the Grid Protectors Program",
       "url": "https://openai.com/index/grid-protectors-program",
       "published_at": "2026-11-02T15:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
-      "published_at": "2026-11-02T09:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "published_at": "2026-11-02T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "published_at": "2026-11-02T00:00:00+00:00"
     },
     {
       "source": "Google DeepMind",
@@ -138,12 +144,6 @@
       "title": "Developing Gemini 4 Argon responsibly and safely",
       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
       "published_at": "2026-10-13T19:43:07+00:00"
-    },
-    {
-      "source": "Google DeepMind",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "published_at": "2026-10-13T16:01:58+00:00"
     },
     {
       "source": "Anthropic · Google Actualités",
