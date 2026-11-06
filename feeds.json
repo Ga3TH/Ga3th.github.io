@@ -1,107 +1,113 @@
 {
-  "updated_at": "2026-11-04T14:34:03.105309+00:00",
+  "updated_at": "2026-11-06T14:17:32.503138+00:00",
   "items": [
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Alignment Faking Depends on the Value, Not Just the Model",
-      "url": "https://arxiv.org/abs/2611.03650",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+      "url": "https://arxiv.org/abs/2611.06962",
+      "published_at": "2026-11-06T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
-      "url": "https://arxiv.org/abs/2611.03651",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+      "url": "https://arxiv.org/abs/2611.06972",
+      "published_at": "2026-11-06T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
-      "url": "https://arxiv.org/abs/2611.03662",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+      "url": "https://arxiv.org/abs/2611.06977",
+      "published_at": "2026-11-06T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
-      "url": "https://arxiv.org/abs/2611.03684",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+      "url": "https://arxiv.org/abs/2611.06984",
+      "published_at": "2026-11-06T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
-      "url": "https://arxiv.org/abs/2611.03685",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "url": "https://arxiv.org/abs/2611.06989",
+      "published_at": "2026-11-06T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
-      "url": "https://arxiv.org/abs/2611.03698",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
+      "url": "https://arxiv.org/abs/2611.06995",
+      "published_at": "2026-11-06T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
-      "url": "https://arxiv.org/abs/2611.03713",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
+      "url": "https://arxiv.org/abs/2611.06996",
+      "published_at": "2026-11-06T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Counterexample-driven autonomous research with application to excess radiated energy in a Z-pinch",
-      "url": "https://arxiv.org/abs/2611.03721",
-      "published_at": "2026-11-04T05:00:00+00:00"
+      "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
+      "url": "https://arxiv.org/abs/2611.07048",
+      "published_at": "2026-11-06T05:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "published_at": "2026-11-05T20:00:00+00:00"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "published_at": "2026-11-05T17:05:16+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "published_at": "2026-11-05T17:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "published_at": "2026-11-05T09:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "published_at": "2026-11-05T08:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "published_at": "2026-11-05T02:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "published_at": "2026-11-05T00:45:15+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "url": "https://openai.com/index/franklin-templeton",
+      "published_at": "2026-11-05T00:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "published_at": "2026-11-04T14:30:00+00:00"
     },
     {
       "source": "Google DeepMind",
       "title": "Agentic cheminformatics with Google Antigravity",
       "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
       "published_at": "2026-11-03T17:01:49+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Accelerating engineering for the physical world",
-      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "published_at": "2026-11-03T12:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Cisco defends at machine speed with OpenAI",
-      "url": "https://openai.com/index/cisco-cyber",
-      "published_at": "2026-11-03T08:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
-      "published_at": "2026-11-03T08:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
-      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
-      "published_at": "2026-11-03T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "published_at": "2026-11-02T18:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "published_at": "2026-11-02T18:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "published_at": "2026-11-02T15:30:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "published_at": "2026-11-02T15:00:00+00:00"
     },
     {
       "source": "Google DeepMind",
@@ -138,12 +144,6 @@
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "published_at": "2026-10-14T02:00:14+00:00"
-    },
-    {
-      "source": "Google DeepMind",
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "published_at": "2026-10-13T19:43:07+00:00"
     },
     {
       "source": "Anthropic · Google Actualités",
