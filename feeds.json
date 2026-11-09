@@ -1,53 +1,65 @@
 {
-  "updated_at": "2026-11-06T14:17:32.503138+00:00",
+  "updated_at": "2026-11-09T16:21:24.124644+00:00",
   "items": [
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-      "url": "https://arxiv.org/abs/2611.06962",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "url": "https://arxiv.org/abs/2611.08572",
+      "published_at": "2026-11-09T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-      "url": "https://arxiv.org/abs/2611.06972",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "url": "https://arxiv.org/abs/2611.08613",
+      "published_at": "2026-11-09T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-      "url": "https://arxiv.org/abs/2611.06977",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "url": "https://arxiv.org/abs/2611.08626",
+      "published_at": "2026-11-09T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
-      "url": "https://arxiv.org/abs/2611.06984",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "url": "https://arxiv.org/abs/2611.08640",
+      "published_at": "2026-11-09T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
-      "url": "https://arxiv.org/abs/2611.06989",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "url": "https://arxiv.org/abs/2611.08644",
+      "published_at": "2026-11-09T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
-      "url": "https://arxiv.org/abs/2611.06995",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+      "url": "https://arxiv.org/abs/2611.08647",
+      "published_at": "2026-11-09T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
-      "url": "https://arxiv.org/abs/2611.06996",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+      "url": "https://arxiv.org/abs/2611.08666",
+      "published_at": "2026-11-09T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
-      "url": "https://arxiv.org/abs/2611.07048",
-      "published_at": "2026-11-06T05:00:00+00:00"
+      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+      "url": "https://arxiv.org/abs/2611.08669",
+      "published_at": "2026-11-09T05:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "published_at": "2026-11-06T08:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "published_at": "2026-11-06T00:00:00+00:00"
     },
     {
       "source": "OpenAI",
@@ -90,18 +102,6 @@
       "title": "Flipsnack grows product signups with conversion optimization",
       "url": "https://openai.com/ads/customers/flipsnack",
       "published_at": "2026-11-05T00:45:15+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "url": "https://openai.com/index/franklin-templeton",
-      "published_at": "2026-11-05T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "published_at": "2026-11-04T14:30:00+00:00"
     },
     {
       "source": "Google DeepMind",
