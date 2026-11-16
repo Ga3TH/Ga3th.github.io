@@ -1,24 +1,15 @@
 {
   "window_days": 14,
-  "total_commits": 26,
+  "total_commits": 18,
   "limited": false,
   "projects": [
-    {
-      "name": "Ga3TH/Ga3th.github.io",
-      "url": "https://github.com/Ga3TH/Ga3th.github.io",
-      "description": "",
-      "commits": 11,
-      "latest_commit_at": "2026-11-03T19:26:25Z",
-      "latest_commit_url": "https://github.com/Ga3TH/Ga3th.github.io/commit/c949a5f048f2b08fbce0c49534d31872741fb15b",
-      "limited": false
-    },
     {
       "name": "Ga3TH/projet-finder",
       "url": "https://github.com/Ga3TH/projet-finder",
       "description": "",
       "commits": 8,
-      "latest_commit_at": "2026-11-13T16:11:50Z",
-      "latest_commit_url": "https://github.com/Ga3TH/projet-finder/commit/67f17db67c80763ca1703724876bbd4bd62d8318",
+      "latest_commit_at": "2026-11-16T11:08:59Z",
+      "latest_commit_url": "https://github.com/Ga3TH/projet-finder/commit/e507ca5e40525ecb404af06227159bdf4d4cff4c",
       "limited": false
     },
     {
@@ -28,6 +19,15 @@
       "commits": 4,
       "latest_commit_at": "2026-11-13T15:57:22Z",
       "latest_commit_url": "https://github.com/Ga3TH/Kotlin-Exos/commit/2f99d9561b8baca936b36228ee731d31c2f333b8",
+      "limited": false
+    },
+    {
+      "name": "Ga3TH/Ga3th.github.io",
+      "url": "https://github.com/Ga3TH/Ga3th.github.io",
+      "description": "",
+      "commits": 3,
+      "latest_commit_at": "2026-11-03T19:26:25Z",
+      "latest_commit_url": "https://github.com/Ga3TH/Ga3th.github.io/commit/c949a5f048f2b08fbce0c49534d31872741fb15b",
       "limited": false
     },
     {
