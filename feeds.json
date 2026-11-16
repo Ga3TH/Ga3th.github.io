@@ -1,6 +1,120 @@
 {
-  "updated_at": "2026-11-10T14:54:17.314694+00:00",
+  "updated_at": "2026-11-16T15:48:20.102349+00:00",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "published_at": "2026-11-16T09:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "published_at": "2026-11-16T06:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "published_at": "2026-11-16T06:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "An Operationalization of Opaque Serial Depth",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "url": "https://arxiv.org/abs/2611.17515",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "url": "https://arxiv.org/abs/2611.17524",
+      "published_at": "2026-11-16T05:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "published_at": "2026-11-16T00:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "published_at": "2026-11-15T22:00:01+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "published_at": "2026-11-15T22:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "published_at": "2026-11-13T15:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "published_at": "2026-11-13T08:00:00+00:00"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "published_at": "2026-11-12T18:00:50+00:00"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "published_at": "2026-11-11T15:00:15+00:00"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "published_at": "2026-11-10T16:03:47+00:00"
+    },
     {
       "source": "Google DeepMind",
       "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
@@ -8,100 +122,16 @@
       "published_at": "2026-11-10T12:02:28+00:00"
     },
     {
-      "source": "OpenAI",
-      "title": "Helping caregivers use AI in everyday life",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "published_at": "2026-11-10T12:00:00+00:00"
+      "source": "Google DeepMind",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "published_at": "2026-11-10T11:13:04+00:00"
     },
     {
-      "source": "OpenAI",
-      "title": "Closing the AI guidance gap in education",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "published_at": "2026-11-10T09:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
-      "url": "https://arxiv.org/abs/2611.10045",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
-      "url": "https://arxiv.org/abs/2611.10048",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "LoRazor: Trimming Adapter Execution for Efficient Multi-LoRA Serving",
-      "url": "https://arxiv.org/abs/2611.10049",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "AYO: A Safe and Privacy-Preserving Platform for Studying Children's Interaction with LLMs",
-      "url": "https://arxiv.org/abs/2611.10054",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM",
-      "url": "https://arxiv.org/abs/2611.10089",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit",
-      "url": "https://arxiv.org/abs/2611.10109",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect",
-      "url": "https://arxiv.org/abs/2611.10110",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
-      "url": "https://arxiv.org/abs/2611.10150",
-      "published_at": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "published_at": "2026-11-09T19:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "url": "https://openai.com/index/control-room",
-      "published_at": "2026-11-09T13:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "published_at": "2026-11-09T08:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Kuken Industries searches 70 years of drawings in minutes",
-      "url": "https://openai.com/index/kuken",
-      "published_at": "2026-11-09T08:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "published_at": "2026-11-06T08:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Measuring how AI agents handle everyday wet-lab science",
-      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "published_at": "2026-11-06T00:00:00+00:00"
+      "source": "Google DeepMind",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "published_at": "2026-11-09T19:51:47+00:00"
     },
     {
       "source": "Google DeepMind",
@@ -114,36 +144,6 @@
       "title": "Agentic cheminformatics with Google Antigravity",
       "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
       "published_at": "2026-11-03T17:01:49+00:00"
-    },
-    {
-      "source": "Google DeepMind",
-      "title": "Speeding up planning decisions with AI",
-      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-      "published_at": "2026-10-30T14:18:30+00:00"
-    },
-    {
-      "source": "Google DeepMind",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "published_at": "2026-10-28T17:00:58+00:00"
-    },
-    {
-      "source": "Google DeepMind",
-      "title": "Genie 4: A new generation of world simulation",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "published_at": "2026-10-27T16:01:38+00:00"
-    },
-    {
-      "source": "Google DeepMind",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "published_at": "2026-10-22T14:30:24+00:00"
-    },
-    {
-      "source": "Google DeepMind",
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "published_at": "2026-10-15T16:08:03+00:00"
     },
     {
       "source": "Anthropic · Google Actualités",
