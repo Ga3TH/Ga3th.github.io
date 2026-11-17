@@ -1,6 +1,90 @@
 {
-  "updated_at": "2026-11-16T15:48:20.102349+00:00",
+  "updated_at": "2026-11-17T16:00:14.161075+00:00",
   "items": [
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
+      "url": "https://arxiv.org/abs/2611.18642",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
+      "url": "https://arxiv.org/abs/2611.18714",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+      "url": "https://arxiv.org/abs/2611.18747",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+      "url": "https://arxiv.org/abs/2611.18793",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "D\\'ecoupage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation",
+      "url": "https://arxiv.org/abs/2611.18866",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
+      "url": "https://arxiv.org/abs/2611.18883",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Bring Back Language to Actions: Restoring VLM capabilities in VLA Models via Parameter Merging",
+      "url": "https://arxiv.org/abs/2611.18891",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
+      "url": "https://arxiv.org/abs/2611.18905",
+      "published_at": "2026-11-17T05:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "published_at": "2026-11-17T00:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "published_at": "2026-11-17T00:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "published_at": "2026-11-16T17:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "published_at": "2026-11-16T17:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "published_at": "2026-11-16T12:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "published_at": "2026-11-16T09:30:00+00:00"
+    },
     {
       "source": "OpenAI",
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
@@ -9,93 +93,9 @@
     },
     {
       "source": "OpenAI",
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "published_at": "2026-11-16T06:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "published_at": "2026-11-16T06:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "url": "https://arxiv.org/abs/2611.17338",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-      "url": "https://arxiv.org/abs/2611.17339",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-      "url": "https://arxiv.org/abs/2611.17340",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
-      "url": "https://arxiv.org/abs/2611.17341",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "An Operationalization of Opaque Serial Depth",
-      "url": "https://arxiv.org/abs/2611.17495",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
-      "url": "https://arxiv.org/abs/2611.17501",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
-      "url": "https://arxiv.org/abs/2611.17515",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
-      "url": "https://arxiv.org/abs/2611.17524",
-      "published_at": "2026-11-16T05:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "published_at": "2026-11-16T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "A step toward defining the Standard Model on a lattice",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "published_at": "2026-11-15T22:00:01+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Our new blog for science",
-      "url": "https://openai.com/index/our-new-blog-for-science",
-      "published_at": "2026-11-15T22:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "published_at": "2026-11-13T15:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "published_at": "2026-11-13T08:00:00+00:00"
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "published_at": "2026-11-16T08:00:00+00:00"
     },
     {
       "source": "Google DeepMind",
