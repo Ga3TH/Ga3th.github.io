@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-11-23T18:10:31.549551+00:00",
+  "updated_at": "2026-11-24T17:46:04.403179+00:00",
   "items": [
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
+      "url": "https://arxiv.org/abs/2611.28185",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+      "url": "https://arxiv.org/abs/2611.28195",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+      "url": "https://arxiv.org/abs/2611.28197",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "url": "https://arxiv.org/abs/2611.28202",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+      "url": "https://arxiv.org/abs/2611.28239",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2611.28244",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "A Nepali-Accented English Evaluation Dataset for Automatic Speech Recognition",
+      "url": "https://arxiv.org/abs/2611.28263",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "arXiv · Intelligence artificielle",
+      "title": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
+      "url": "https://arxiv.org/abs/2611.28277",
+      "published_at": "2026-11-24T05:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "published_at": "2026-11-23T21:20:00+00:00"
+    },
     {
       "source": "Google DeepMind",
       "title": "Finding faster quantum algorithms with agents and formal verification",
@@ -8,52 +62,16 @@
       "published_at": "2026-11-23T16:59:40+00:00"
     },
     {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-      "url": "https://arxiv.org/abs/2611.26663",
-      "published_at": "2026-11-23T05:00:00+00:00"
+      "source": "OpenAI",
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "published_at": "2026-11-23T08:00:00+00:00"
     },
     {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
-      "url": "https://arxiv.org/abs/2611.26717",
-      "published_at": "2026-11-23T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
-      "url": "https://arxiv.org/abs/2611.26722",
-      "published_at": "2026-11-23T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
-      "url": "https://arxiv.org/abs/2611.26782",
-      "published_at": "2026-11-23T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF",
-      "url": "https://arxiv.org/abs/2611.26794",
-      "published_at": "2026-11-23T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
-      "url": "https://arxiv.org/abs/2611.26797",
-      "published_at": "2026-11-23T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
-      "url": "https://arxiv.org/abs/2611.26870",
-      "published_at": "2026-11-23T05:00:00+00:00"
-    },
-    {
-      "source": "arXiv · Intelligence artificielle",
-      "title": "Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis",
-      "url": "https://arxiv.org/abs/2611.26903",
-      "published_at": "2026-11-23T05:00:00+00:00"
+      "source": "OpenAI",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "published_at": "2026-11-23T08:00:00+00:00"
     },
     {
       "source": "OpenAI",
@@ -84,24 +102,6 @@
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "published_at": "2026-11-19T08:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "published_at": "2026-11-19T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "published_at": "2026-11-19T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "published_at": "2026-11-19T00:00:00+00:00"
     },
     {
       "source": "Google DeepMind",
