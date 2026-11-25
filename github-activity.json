@@ -1,6 +1,6 @@
 {
   "window_days": 14,
-  "total_commits": 13,
+  "total_commits": 16,
   "limited": false,
   "projects": [
     {
@@ -22,12 +22,21 @@
       "limited": false
     },
     {
+      "name": "Ga3TH/projet-Otelo",
+      "url": "https://github.com/Ga3TH/projet-Otelo",
+      "description": "",
+      "commits": 2,
+      "latest_commit_at": "2026-11-25T15:26:11Z",
+      "latest_commit_url": "https://github.com/Ga3TH/projet-Otelo/commit/5511e26328eef3643d161c97ee40380067e3abf2",
+      "limited": false
+    },
+    {
       "name": "Ga3TH/projet-logwatch",
       "url": "https://github.com/Ga3TH/projet-logwatch",
       "description": "",
-      "commits": 1,
-      "latest_commit_at": "2026-11-18T15:00:55Z",
-      "latest_commit_url": "https://github.com/Ga3TH/projet-logwatch/commit/1b884aceda6586801cfac7ab382f0c84750e2cb5",
+      "commits": 2,
+      "latest_commit_at": "2026-11-25T13:26:04Z",
+      "latest_commit_url": "https://github.com/Ga3TH/projet-logwatch/commit/81ffb01ef85edde764f5b758beb1995bea9f2ac6",
       "limited": false
     }
   ]
