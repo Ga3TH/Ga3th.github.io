@@ -1,53 +1,89 @@
 {
-  "updated_at": "2026-11-24T17:46:04.403179+00:00",
+  "updated_at": "2026-11-26T16:55:43.409884+00:00",
   "items": [
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
-      "url": "https://arxiv.org/abs/2611.28185",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "published_at": "2026-11-26T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
-      "url": "https://arxiv.org/abs/2611.28195",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "published_at": "2026-11-26T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
-      "url": "https://arxiv.org/abs/2611.28197",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "url": "https://arxiv.org/abs/2611.33165",
+      "published_at": "2026-11-26T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
-      "url": "https://arxiv.org/abs/2611.28202",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "published_at": "2026-11-26T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
-      "url": "https://arxiv.org/abs/2611.28239",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "url": "https://arxiv.org/abs/2611.33263",
+      "published_at": "2026-11-26T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-      "url": "https://arxiv.org/abs/2611.28244",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+      "url": "https://arxiv.org/abs/2611.33303",
+      "published_at": "2026-11-26T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "A Nepali-Accented English Evaluation Dataset for Automatic Speech Recognition",
-      "url": "https://arxiv.org/abs/2611.28263",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
+      "url": "https://arxiv.org/abs/2611.33304",
+      "published_at": "2026-11-26T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
-      "title": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
-      "url": "https://arxiv.org/abs/2611.28277",
-      "published_at": "2026-11-24T05:00:00+00:00"
+      "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
+      "url": "https://arxiv.org/abs/2611.33322",
+      "published_at": "2026-11-26T05:00:00+00:00"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "published_at": "2026-11-24T13:07:53+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "published_at": "2026-11-24T13:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "published_at": "2026-11-24T11:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "published_at": "2026-11-24T00:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "published_at": "2026-11-24T00:00:00+00:00"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "published_at": "2026-11-24T00:00:00+00:00"
     },
     {
       "source": "OpenAI",
@@ -72,36 +108,6 @@
       "title": "Richpanel helps companies automate 50% of support in 30 days",
       "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "published_at": "2026-11-23T08:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "published_at": "2026-11-22T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "published_at": "2026-11-20T10:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "published_at": "2026-11-20T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "published_at": "2026-11-20T00:00:00+00:00"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "published_at": "2026-11-19T08:00:00+00:00"
     },
     {
       "source": "Google DeepMind",
@@ -140,14 +146,8 @@
       "published_at": "2026-11-10T12:02:28+00:00"
     },
     {
-      "source": "Google DeepMind",
-      "title": "Opening the datasets behind our AI weather models",
-      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
-      "published_at": "2026-11-10T11:13:04+00:00"
-    },
-    {
       "source": "Anthropic · Google Actualités",
-      "title": "Anthropic commits $10 million to Canadian AI research - Anthropic",
+      "title": "Investing in Canadian research - Anthropic",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4ejNuaWNhdVA1UlpENzRGMmdNVWJEM3JrbHhiOVd5QW95OXNWRHdyLW5DbmY4d2xtemp3UTNheDZoRzZUSEdnVy05SEJtd1J4MWtPeHlmdGFMUXh4UG9LRA?oc=5",
       "published_at": "2026-07-14T07:00:00+00:00"
     }
