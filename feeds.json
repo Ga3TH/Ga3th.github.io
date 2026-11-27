@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-11-26T16:55:43.409884+00:00",
+  "updated_at": "2026-11-27T16:41:15.161413+00:00",
   "items": [
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "Context Scaling: A New Frontier of AI Scaling",
       "url": "https://arxiv.org/abs/2611.33160",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
       "url": "https://arxiv.org/abs/2611.33161",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
       "url": "https://arxiv.org/abs/2611.33165",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "General-Purpose Decision Models for AI Configuration Tuning",
       "url": "https://arxiv.org/abs/2611.33190",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
       "url": "https://arxiv.org/abs/2611.33263",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
       "url": "https://arxiv.org/abs/2611.33303",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation",
       "url": "https://arxiv.org/abs/2611.33304",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "arXiv · Intelligence artificielle",
       "title": "Brand Recall and Category Accuracy in Language Models: An Audit of 1,000 B2B SaaS Brands",
       "url": "https://arxiv.org/abs/2611.33322",
-      "published_at": "2026-11-26T05:00:00+00:00"
+      "published_at": "2026-11-27T05:00:00+00:00"
     },
     {
       "source": "Google DeepMind",
@@ -147,7 +147,7 @@
     },
     {
       "source": "Anthropic · Google Actualités",
-      "title": "Investing in Canadian research - Anthropic",
+      "title": "Anthropic commits $10 million to Canadian AI research - Anthropic",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4ejNuaWNhdVA1UlpENzRGMmdNVWJEM3JrbHhiOVd5QW95OXNWRHdyLW5DbmY4d2xtemp3UTNheDZoRzZUSEdnVy05SEJtd1J4MWtPeHlmdGFMUXh4UG9LRA?oc=5",
       "published_at": "2026-07-14T07:00:00+00:00"
     }
