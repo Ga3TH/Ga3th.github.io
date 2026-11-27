@@ -1,22 +1,22 @@
 {
   "window_days": 14,
-  "total_commits": 76,
+  "total_commits": 80,
   "limited": false,
   "projects": [
     {
       "name": "Ga3TH/StackR",
       "url": "https://github.com/Ga3TH/StackR",
       "description": "",
-      "commits": 64,
-      "latest_commit_at": "2026-11-26T21:40:01Z",
-      "latest_commit_url": "https://github.com/Ga3TH/StackR/commit/c2cd15f01aa965a074ddf738ec3a9c922a06a874",
+      "commits": 69,
+      "latest_commit_at": "2026-11-27T08:43:37Z",
+      "latest_commit_url": "https://github.com/Ga3TH/StackR/commit/f02a3d6afa77ba9ea8f6ffa8e05f83826cbaf2ad",
       "limited": false
     },
     {
       "name": "Ga3TH/projet-finder",
       "url": "https://github.com/Ga3TH/projet-finder",
       "description": "",
-      "commits": 7,
+      "commits": 6,
       "latest_commit_at": "2026-11-18T12:37:18Z",
       "latest_commit_url": "https://github.com/Ga3TH/projet-finder/commit/3889a43f1c9fced25163ed6f543a7a55e0ba9519",
       "limited": false
